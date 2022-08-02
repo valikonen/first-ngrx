@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { getUsersList, getUsersListSuccess } from './modules/users/store/actions/get-users.actions';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'first-project';
+
+ 
 }
